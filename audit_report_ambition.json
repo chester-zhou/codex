@@ -1,0 +1,1245 @@
+[
+  {
+    "大类": "总说明",
+    "小类": "目的",
+    "审核要求": "为客户和施工单位提供场地准备信息，确保场地满足设备运送和安装要求",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "角色定义",
+    "审核要求": "1. 飞利浦：设备制造商 / 提供商；2. 客户：买方 / 最终用户；3. 施工单位 / 第三方：负责场地设计施工；4. 屏蔽公司：负责射频屏蔽室施工（建议选用飞利浦认证）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13d6cb620>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "使用条件",
+    "审核要求": "1. 仅用于飞利浦设备场地准备，不可用于其他建筑 / 施工；2. 客户额外要求需告知飞利浦；3. 场地准备需符合本文件要求，偏离需经飞利浦项目经理同意；4. 需使用最新版本文件",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e3231d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "客户责任",
+    "审核要求": "1. 明确安装房间；2. 负责场地设计和施工；3. 确保工作区域可锁闭，限制无关人员出入；4. 告知场地周边不利影响情况并整改；5. 确保场地装修完成、清洁干燥，施工人员退场",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "为作能不，考参户客供仅息信的中纸图套本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建墙"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x12fddd670>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "施工单位责任",
+    "审核要求": "严格按照国家相关规范及本文件要求施工，偏离需经飞利浦项目经理同意",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24.01"
+      },
+      {
+        "page": 1,
+        "quote": "有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f04a630>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "健康和安全 - 控制区域",
+    "审核要求": "1. 设定 0.5mT（5G）磁力线范围为控制区域，设置 “警告：此处有强磁场” 警示标志（地面标记 / 安全围栏等）；2. 带心脏起搏器、铁磁植入物等人员禁止进入控制区域；3. 检查室入口需设安全措施（如金属探测仪）；4. 铁磁物体禁止带入检查室；5. 非铁磁材料杜瓦罐需带标签方可带入",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0."
+      },
+      {
+        "page": 1,
+        "quote": "为作能不，考参户客供仅息信的中纸图套本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建墙"
+      },
+      {
+        "page": 1,
+        "quote": "筑建为作能不，考参户客供仅息信的中纸图套本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f008260>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "健康和安全 - 紧急退磁",
+    "审核要求": "1. 提供两个紧急退磁开关，仅紧急情况使用；2. 医疗急救需用非无磁仪器时，需先转出病人；3. 退磁后 30 秒内磁场中心强度降至 20mT（200G）以内",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 35"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e323680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "总说明",
+    "小类": "健康和安全 - 液氦 / 氦气",
+    "审核要求": "1. 氦气积聚可能导致窒息，失超时需通过排放系统排至室外；2. 液氦接触人体会冻伤，需专用防护装备；3. 仅培训人员可接触低温液体；4. 氦气排放管出口需设禁止进入区域，定期检查；5. 磁体通电前需安装好排放管和紧急退磁开关",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e897b90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备资料",
+    "小类": "磁体参数 - 尺寸",
+    "审核要求": "1. Ingenia 3.0T：1838x2278x2505mm；2. Ingenia MR 5300：1838x2278x2505mm；3. Achieva 1.5T：2198x4444x2492mm；4. Ingenia MR 7700：1868x2278x2505mm；5. Ingenia 3.0T CX：2199x4391x2504mm Prodiva 2180x4830x2478mm 6 Multiva 1.5T  2052x4417x2499mm   Achieva3.0: 2198x4444x2492mm  Ingenia Elation 2278x1838x2505",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      },
+      {
+        "page": 1,
+        "quote": "T 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e53ac00>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备资料",
+    "小类": "磁体参数 - 重量",
+    "审核要求": "1. Ingenia 3.0T：6100kg；2. Ingenia MR 5300：3700kg；3. Achieva 1.5T：4630kg；4. Ingenia MR 7700：6300kg；5. Ingenia 3.0T CX：5660kg Prodiva 3665KG  Multiva 1.5T 4500KG    Achieva3.0T 6100KG  Ingenia Elition 6300KG",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "T 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eb680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备资料",
+    "小类": "磁体参数 - 噪声",
+    "审核要求": "1. Ingenia 3.0T：94-99dB (A)（检查室）；2. Ingenia MR 5300：94-99dB (A)（检查室）；3. Achieva 1.5T：99-105dB (A)；4. Ingenia MR 7700：95dB (A)（检查室）；5. Ingenia 3.0T CX：105dB (A) Pridiva 99-105db   Achieva 3.0:99-105db Multiva 1.5T  99-105db  Ingenia Elition 94-99db",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "00 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT"
+      },
+      {
+        "page": 1,
+        "quote": "T 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1494581d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备资料",
+    "小类": "病人床参数 - 尺寸",
+    "审核要求": "1. Ingenia 3.0T/Ingenia MR 5300/Ingenia MR 7700：560x2500x947mm；2. Achieva 1.5T：含磁体整体尺寸 2198x4444x2492mm；3. Ingenia 3.0T CX：含磁体整体尺寸 2199x4391x2504mm Pridiva 2180x4830x2478含磁体整体尺寸  Multiva 1.5T 2052x4417x2499mm含磁体整体尺寸 Achieva 3.0T: 2198x4444x2492 含磁体整体尺寸   Ingenia Elition 560x2500x947MM",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24.01"
+      },
+      {
+        "page": 1,
+        "quote": "其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24.01"
+      },
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f0854c0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备资料",
+    "小类": "病人床参数 - 重量",
+    "审核要求": "1. Ingenia 3.0T/Ingenia MR 5300/Ingenia MR 7700：260kg；2. Achieva 1.5T：165KG；3. Ingenia 3.0T CX：含磁体整体重量 5660kg Prodiva 268KG  Multiva165KG Achieva3.0T 260KG  Ingenia Elition 260KG",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "T 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13d7f3440>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "操作车辆",
+    "审核要求": "需使用大卡车、铲车、吊车、液压车",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "磁体入口尺寸",
+    "审核要求": "1. 开墙洞：2.50m（宽）x2.50m（高）；2. 屋顶吊装：2.50m（长）x2.50m（宽）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室"
+      },
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900"
+      },
+      {
+        "page": 1,
+        "quote": "管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面200，C20以上基础 空调与冷水机室外机平台 7500 5740 3000 .redloh th"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e4bd340>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "走廊尺寸",
+    "审核要求": "2.50m（宽）x2.60m（高）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室"
+      },
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492ebb90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "检查室门尺寸",
+    "审核要求": "1.20m（宽）x2.10m（高）（加液氦通道,500L液氦杜瓦罐）(如果液氦杜瓦罐是小瓶250L,尺寸要求 900 （宽）x2020 高，)",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室"
+      },
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f04a450>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "设备室门尺寸",
+    "审核要求": "1.20m（宽）x2.10m（高）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室"
+      },
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149458b00>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "运输时振动加速度限值",
+    "审核要求": "竖直方向≤2g，其他方向≤1g",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "磁体运输尺寸 - 带外壳",
+    "审核要求": "1. Ingenia 3.0T：1870x2280mm（重量 6100kg）；2. Ingenia MR 5300：1870x2280mm（重量 3700kg）；3. Ingenia MR 7700：1870x2280mm（重量 6300kg）；4. Achieva 1.5T：2060x1780x2400mm（重量 3800kg）；5. Ingenia 3.0T CX：1920x1780x2480mm（重量 5660kg）Prodiva 1.5T 2020x1880x2200mm（重量3665kg）Multiva 1.5T 2060x1780x2400mm （重量 4500kg）Achieva 3.0T：1920x1780x2480mm（重量 6100kg）Ingenia Elition  1870x2280mm（重量6300kg)",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "T 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eaff0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "存放条件 - 温度",
+    "审核要求": "1. 常规：-20~50°C；由于每台机器都有测试水膜，水膜适用温度在 5~50°C，过低都会把水膜冻裂",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "局为最终方案。 原有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492ebce0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "存放条件 - 湿度",
+    "审核要求": "5%~95%（无冷凝）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "存放条件 - 仓库面积",
+    "审核要求": "大于 40m²，封闭区域",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "存放条件 - 大气压力",
+    "审核要求": "1. Ingenia 3.0T/Ingenia MR 7700/Ingenia 3.0T CX/Prodiva 1.5T/Mulitiva 1.5T/Ingenia Elition ：50kPa~106kPa；2. Ingenia MR 5300：700hPa~1100hPa；3. Achieva 1.5T：无明确要求（默认遵循常规）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "运输要求",
+    "小类": "存放条件 - 倾斜角度",
+    "审核要求": "1. 无额外液氦挥发：≤5°（Ingenia 3.0T/Ingenia 3.0T CX）；≤20°（Ingenia MR 5300/Ingenia MR 7700）；2. 大量液氦挥发：≤20°（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "静态铁磁物体",
+    "审核要求": "1. 磁体中心轴两侧 3mx3m 范围内：地面以下 50mm 内无铁磁物质；50~250mm 内铁磁物质≤25kg/m²；250mm 以下可忽略，需均匀分布；2. 非均匀铁磁物质（如钢梁）：长轴垂直 Z 轴时距等中心 > 1.25m，其他角度 > 1.6m；3. 大质量铁磁物质 / 结构距磁体中心≥2.5m ,3 在最终完成地面以下 0.25m 至 0.68m 之间，非均匀的铁磁性物质（如钢梁）的长\n轴方向必须与磁体 Z 轴垂直。\n⚫ 其他角度的铁磁性物质必须距离最终完成地面 0.68m 以外。\n⚫ 质量较大的铁磁性物质或铁制结构必须放置在磁体中心至少 2.5m 远的地方。（对于Achieva,Prodiva ,)",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24.01"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e320d40>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "移动铁磁物体最小距离",
+    "审核要求": "需根据物体重量及与磁体等中心的轴向（Z 轴 / X/Y 轴）距离确定，重量越大、距离越近，要求越严格（具体参照各型号手册中的距离表格）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24.01"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e895460>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "移动的磁化物体",
+    "审核要求": "安全距离 = 移动铁磁物体质量 ×10，再参照 “移动铁磁性物体最小距离要求表” 查询",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f0c6ba0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "电力轨道交通系统最小距离",
+    "审核要求": "1. 电流 750A：平行 Z 轴（0°）18m，90°24m（Ingenia 3.0T/Ingenia MR 7700/Achieva 3.0T/Ingenia Elition）；17m（0°），25m（90°）（Ingenia MR 5300/Achieva 1.5T/Multiva1.5T）；平行 Z 轴（0°）17m，90°25m（Prodiva）2. 电流 2000A：平行 Z 轴（0°）26m，90°34m（Ingenia 3.0T/Ingenia MR 7700/Achieva 3.0T/Ingenia Elition ）；32m（0°），41m（90°）（Ingenia MR 5300/Achieva 1.5T）;18m（0°），41m（90°）（Prodiva1.5t/Multiva1.5T）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "电磁场干扰源最小距离",
+    "审核要求": "1. 电缆线：22.4×√电流大小（A）（厘米）；2. 变压器：39.4× 功率（KVA）（厘米）；3. 电动机：91.4× 功率（KVA）（厘米）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "磁体间干扰",
+    "审核要求": "1. 相邻磁共振等中心场强 <0.05mT：允许；2. 0.05~0.3mT：需重新匀场；3.>0.3mT：不允许(此值只限于飞利浦磁共振系统,其他品牌需要和其他厂商确认）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24.01"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1494584d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "振动干扰 - 连续振动",
+    "审核要求": "1. 来源：电动马达、空调系统等；2. 解决方式：去除振动源或安装防震垫",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e783920>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "振动干扰 - 随机振动",
+    "审核要求": "1. 来源：车辆、人员走动、建筑共振等；2. 解决方式：改变建筑结构（如安装隔离平台），需专业工程师设计",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "00 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面200，C20以上基础 空调与冷水机室"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e137200>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "机房选址",
+    "小类": "干扰测试",
+    "审核要求": "1. 测试内容：DC、AC、Vibration；2. 测试探头：磁体中心位置，沿 Z 轴放置，每偏转 45° 测试；3. 测试时段：工作时段，干扰源开启至最大值；4. 测试取值：Peak-to-Peak 值",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "施工要求",
+    "小类": "通用要求",
+    "审核要求": "1. 机房准备及监理需由有资质专业公司负责，客户签订合同并监督；2. 遵守国家 / 地方相关法规；3. 飞利浦提供设备重量等数据供参考，客户 / 施工单位负责地面 / 天花 / 墙面承重确认；4. 严格检查房间尺寸，偏差需及时告知飞利浦",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "净尺寸 - 长度",
+    "审核要求": "1. 推荐：Ingenia 3.0T>7500mm，Ingenia MR 5300/Ingenia Elition>7000mm，Achieva 1.5T/Multiva 1.5T>7000mm，Ingenia MR 7700>7000mm，Ingenia 3.0T CX/Achieva 3.0T>7500mm；2. 最小：所有型号(除了Prodiva 1.5T)≥6100mm 3 Prodiva 1.5T >70000mm,最小5700mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e107e30>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "净尺寸 - 宽度",
+    "审核要求": "1. 推荐：Ingenia 3.0T>6000mm，Ingenia MR 5300>4800mm，Achieva 1.5T/Multiva 1.5T>5000mm，Ingenia MR 7700/Ingenia Elition>6200mm，Ingenia 3.0T CX/Achieva 3.0T>6000mm；2. 最小：所有型号≥4500mm 3 Prodiva>4700MM,最小3350mm磁体左侧最小 1805mm，右侧最小 1542mm。,Ingenia Elition 当磁体中心距后方完成面＞2m 时，最小宽度为 3.4m。当磁体中心距后方完成面＜2m时，最小宽度为 3.6m。",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eb170>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "净尺寸 - 屏蔽屋高度",
+    "审核要求": "1. 推荐：所有型号 > 3200mm；2. 最小：所有型号≥3000mm（Ingenia MR 7700 建议≥3000mm，Ingenia 3.0T CX 建议≥3200mm）Prodiva 最小2650MM，小屏蔽高度取决于假顶与失超管高度",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149458230>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "房间通用要求",
+    "审核要求": "1. 室内金属物体需为非铁磁性材料；2. 接入的电线、管道等需通过滤波器 / 波导管滤波；3. 房顶无水管 / 水槽，下方避免管道经过；4. 防止屏蔽体泡水",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LC"
+      },
+      {
+        "page": 1,
+        "quote": "本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建墙体 原有门墙去除 签章： 日期： 梁"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149458f20>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "屏蔽要求 - 衰减值",
+    "审核要求": "频率 10M-130MHz 范围内，衰减值≥100dB，安装前需第三方检测（标准：MIL-STD-285 或 GB/T 12190）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "院医爱博区发开骅黄 ：LET ：期日 ：例比 ：号目项 94143160051 10115202 机移 。用使接直件文或纸图工施筑建为作能不，考参户客供仅息信的中纸图套本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eb3b0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "屏蔽要求 - 绝缘",
+    "审核要求": "屏蔽室对地绝缘电阻 > 3kΩ",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f0099a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "屏蔽要求 - 门机联锁",
+    "审核要求": "1. 屏蔽门行程开关需连接至 DACC 机柜，留出 2m 余量；2. 屏蔽门打开时设备禁止发射电磁波，否则可能导致电磁辐射风险",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏"
+      },
+      {
+        "page": 1,
+        "quote": "空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地"
+      },
+      {
+        "page": 1,
+        "quote": "mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e215bb0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "屏蔽要求 - 材料",
+    "审核要求": "屏蔽窗采用钢化安全玻璃，屏蔽室施工由屏蔽公司完成",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e393a10>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "失超管要求 - 存在性",
+    "审核要求": "1. 需设置：Ingenia 3.0T、Achieva 1.5T/Achieva 3.0T/Multiva 1.5T、Ingenia MR 7700、Ingenia 3.0T CX，Prodiva 1.5T；Ingenia Elition 2. 无需设置：Ingenia MR 5300（BlueSeal 技术）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "地面要求 - 平整度",
+    "审核要求": "1. 磁体基础范围（A 区域）：任意两点水平差≤2.5mm（Ingenia 3.0T/Ingenia 3.0T CX/Ingenia Elition）；≤5mm（其他型号）；2. 其他区域（B 区域）：任意两点水平差≤±10mm（Ingenia 3.0T/Ingenia 3.0T CX）；≤20mm（其他型号）；3. 屏蔽层处地面：任意两点水平差≤2.5mm/m（Ingenia 3.0T）；≤5mm（其他型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "为作能不，考参户客供仅息信的中纸图套本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体 新建墙"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1494589e0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "地面要求 - 基础承重",
+    "审核要求": "1. 磁体地垫总受力：Ingenia 3.0T 61KN，Ingenia MR 5300 37KN，Achieva 1.5T/Multiva 1.5T  12.5KN，Ingenia MR 7700/Ingenia Elition 64KN，Ingenia 3.0T CX /Achieva 3.0T  23KN / 地垫；Prodiva 40.6KN2. 病人床地垫：横向受力 4KN，向上受力 10KN（单个螺栓），向下受力 5KN   (Multiva 1.5T 是10KN）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "地面要求 - 地垫材料",
+    "审核要求": "1. 磁体地垫：≥20mm 厚铝板；2. 病人床地垫：≥20mm 厚不锈钢或铝片",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "地面要求 - 绝缘电阻",
+    "审核要求": "地面绝缘电阻 < 1×10⁹Ω/m²（参照 NEN EN IEC 61340-4）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "天花要求 - 吊顶",
+    "审核要求": "1. 推荐非金属材料，需有降噪效果；2. 磁体上方留 1440x720mm 开口（无吊顶）(Achieva 1.5/Achieva 3.0t/Multiva1.5T/Ingenia 3.0CX），外侧设 1440x800mm 活动假顶(Achieva 1.5/Achieva 3.0t/Multiva1.5T/Ingenia 3.0T CX）3 磁体上方留 1160x550mm 开口（无吊顶）(Prodiva 1.5T,），外侧设 11600x600mm 活动假顶(Prodiva 1.5T,）；4 磁体上方留 1440x700mm 开口（无吊顶）(Ingenia系列 ），外侧设 1440x600mm 活动假顶Ingenia 系列）； 5. 磁体维修空间内无低于 2600mm 的悬吊物体；4. 金属部件需与射频屏蔽接地连接",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "天花要求 - 扬声器",
+    "审核要求": "1. 两个扬声器安装在吊顶上（磁体前后各一个），需在 100mT 磁场区域外；2. 吊顶需承受 25N 重量；3. 通过吊环（屏蔽公司提供）和安全绳索（飞利浦提供）固定，吊环距扬声器≤2.5m，承受 250N 拉力",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "天花线槽要求 - 截面积",
+    "审核要求": "1. 最小：500x100mm（Ingenia MR 5300/Ingenia MR 7700）；600x100mm（其他型号）；2. 推荐：800x100mm（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149458f50>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "天花线槽要求 - 高度",
+    "审核要求": "假顶以上 80mm，距最终地面 2600mm",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "墙面要求",
+    "审核要求": "1. 墙面平整且垂直地面；2. 系统滤波板和失超管波导洞口尺寸 / 位置符合安装要求；3. 系统滤波板波导外表面突出屏蔽层，与装饰层齐平；4. 屏蔽商准备 M5/M8 螺丝、螺母",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "m 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面200，C20以"
+      },
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e391f10>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "噪声要求 - 测量值",
+    "审核要求": "1. 操作者位置：105dB (A)（Ingenia /Achieva系列/Multiva 1.5T/Ingenia Elition）；40dB (A)（Ingenia MR 7700 控制室）；99db(A)(Prodiva系列）2. 检查床前：101dB (A)（Ingenia /Achieva系列/Multiva 系列/Ingenia Elition ）96db(A)(Prodiva系列）；3. 磁体 1 米周围：99dB (A)（Ingenia 3.0T）；94db(A)(Prodiva)  75dB (A)（设备室，其他型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3"
+      },
+      {
+        "page": 1,
+        "quote": "T 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e323680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "噪声要求 - 降噪",
+    "审核要求": "1. 天花材料吸音系数 > 0.7；2. 主音频范围 600~1000Hz；3. 屏蔽门衰减 > 32dB；4. 屏蔽窗衰减 > 40dB；5. 屏蔽室外噪声≤屏蔽门处噪声",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": ".1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492ebec0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "照明要求 - 灯具类型",
+    "审核要求": "推荐白炽灯 / 卤素灯，禁止荧光灯、节能灯、常规 LED 灯、电子调光灯",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "局为最终方案。 原有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e35d640>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "照明要求 - 照度",
+    "审核要求": "1. 病人检查：200Lux；2. 安装维修：500Lux；3. 避免扫描床和磁体背后正上方设照明",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面2"
+      },
+      {
+        "page": 1,
+        "quote": "净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面20"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149459310>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "检查室要求",
+    "小类": "插座要求",
+    "审核要求": "1. 墙面安装 10A 通用电源插座；2. 吊顶上部隔层内（磁体顶部附近）安装 10A 插座 + 带开关照明灯（Ingenia 3.0T/CX/Achieva/Multiva）；16A 插座 + 带开关照明灯（Ingenia MR 5300/Ingenia MR 7700/Prodiva/Ingenia Elition）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备室要求",
+    "小类": "净尺寸 - 长度",
+    "审核要求": "1. 推荐：Ingenia 3.0T/CX>5000mm，Ingenia MR 5300>5500mm，Achieva 1.5T/3.0/Multiva 1.5T>5000mm，Ingenia MR 7700/Ingenia Elition >6500mm，Ingenia 3.0T CX>5000mm；  Prodiva1.5T > 6500mm2. 最小：Ingenia 3.0T≥4000mm，Ingenia MR 5300≥4800mm，Achieva 1.5T/Multiva1.5T≥4000mm，Ingenia MR 7700/Ingenia Elition≥5000mm，Ingenia 3.0T CX≥4000mm   Prodiva1.5T≥5000mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      },
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149459be0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备室要求",
+    "小类": "净尺寸 - 宽度",
+    "审核要求": "1. 推荐：Ingenia 3.0T/CX>4000mm，Ingenia MR 5300>3500mm，Achieva 1.5T/3.0/Multiva1.5T>4000mm，Ingenia MR 7700/Ingenia Elition>3500mm，Ingenia 3.0T CX>4000mm；Prodiva1.5T >3500mm2. 最小：Ingenia 3.0T≥3000mm，Ingenia MR 5300≥2500mm，Achieva 1.5T/Multiva1.5T≥3000mm，Ingenia MR 7700/IngeniaElition≥2500mm，Ingenia 3.0T CX≥3000mm   Prodiva1.5T >2200mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      },
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eb860>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备室要求",
+    "小类": "净尺寸 - 结构高度",
+    "审核要求": "1. 推荐：所有型号 > 3200mm；2. 最小：Ingenia 3.0T≥3000mm，Ingenia MR 5300≥2600mm，Achieva 1.5T/3.0/Multiva1.5T≥3000mm，Ingenia MR 7700/IngeniaElition≥2600mm，Ingenia 3.0T CX≥3000mm  Prodiva1.5T≥3000mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      },
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e4bd340>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备室要求",
+    "小类": "设备最大允许磁场强度",
+    "审核要求": "1. 系统滤波板（SFB）：7mT（所有型号）；2. 主电源分配柜（MDU）：15mT（所有型号）；3. 梯度放大柜（GAC）：15mT（所有型号）；4. 数据处理柜（DACC）：5mT（所有型号）；5. 操作台：5mT（Ingenia 3.0T/Achieva 1.5T），15mT（Ingenia MR 5300/Ingenia MR 7700）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13d7f3440>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备室要求",
+    "小类": "供水要求 - 进水",
+    "审核要求": "进水管径 6 分，球阀，压力 0.15~0.6MPa，流量≥10L/min，符合市政供水要求",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e539ac0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "设备室要求",
+    "小类": "供水要求 - 排水",
+    "审核要求": "排水口 > 2 寸，与排水系统相连",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149459d90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "控制室要求",
+    "小类": "净尺寸 - 长度",
+    "审核要求": "1. 推荐：所有型号 > 4000mm；2. 最小：所有型号≥3200mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x14945a660>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "控制室要求",
+    "小类": "净尺寸 - 宽度",
+    "审核要求": "1. 推荐：所有型号 > 3000mm；2. 最小：所有型号≥2000mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e781bb0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "控制室要求",
+    "小类": "净尺寸 - 结构高度",
+    "审核要求": "1. 推荐：Ingenia 3.0/Prodiva 1.5TT>3200mm，Ingenia MR 5300>3000mm，Achieva 1.5T/Multiva1.5T>3200mm，Ingenia MR 7700/Ingenia Elition>3200mm；2. 最小：Ingenia 3.0T≥2800mm，Ingenia MR 5300 /IngeniaElition无明确要求，Achieva 1.5T/3.0/Multiva1.5T≥2800mm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与"
+      },
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e4bd340>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "控制室要求",
+    "小类": "噪声要求",
+    "审核要求": "1. 测量值：操作台前 1 米处 55dB (A)（Ingenia 3.0T/Achieva 1.5T/3.0T/Multiva1.5T）；40dB (A)（Ingenia MR 5300/Ingenia MR 7700/IngeniaElition）；75db(A)(Prodiva 1.5T/Ingenia 3.0T CX)2. 降噪：天花材料吸音系数 > 0.6，主音频范围 600~1000Hz",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eb320>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "控制室要求",
+    "小类": "照明要求",
+    "审核要求": "1. 日常：50~100Lux；2. 维修：500Lux；3. 避免光线直射控制台监视器",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0."
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13f04bbf0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "主电源 - 电压 / 频率",
+    "审核要求": "380V±10%，AC，3P/N/PE，50Hz±1Hz",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "主电源 - 额定容量",
+    "审核要求": "1. Ingenia 3.0T/Achieva 3.0T/Ingenia Elition：86kVA；2. Ingenia MR 5300：60kVA；3. Achieva 1.5T：60kVA（单梯）/80kVA（双梯）；4. Ingenia MR 7700：115kVA；5. Ingenia 3.0T CX：无明确要求（参考 Ingenia 3.0T）Prodiva 1.5T:50KVA    Achieva 3.0T   86kVA Multiva 1.5T  60KVA",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "主电源 - 额定电流",
+    "审核要求": "1. Ingenia 3.0T/Ingenia Elition：124A；2. Ingenia MR 5300：90A；3. Ingenia MR 7700：175A  4 Prodiva 1.5 T100A 5 Achieva 1.5T/3.0T:125A(双梯) /100A(单梯)  6  Multiva 1.5T 100A",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "主电源 - 电源内阻",
+    "审核要求": "1. Ingenia 3.0T/Multiva1.5T/Achieva 3.0T：<150mΩ；2. Ingenia MR 5300：<200mΩ；3. Achieva 1.5T/3.0T：≤200mΩ（单梯）/≤150mΩ（双梯）；4. Ingenia MR 7700：<110mΩ；5. Ingenia 3.0T CX：无明确要求（参考 Ingenia 3.0T）6   IngeniaElition <200mΩ（Elition S）; <150mΩ（Elition X）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x14945a8a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "辅助电源 - 额定功率",
+    "审核要求": "80kW（具体视空调 / 水冷设备而定）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "辅助电源 - 主断路器",
+    "审核要求": "200A（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "电气要求",
+    "小类": "接地系统",
+    "审核要求": "1. 推荐：TN-S/TT 系统，严禁 TN-C 系统；2. 接地电阻：联合接地 < 1Ω，独立接地 < 4Ω（所有型号）；3. 保护接地用线线径≥35mm²，与相线相等或为相线 1/2  零地电压差：＜5V（建议＜1V RMS）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "网络要求",
+    "小类": "硬件要求",
+    "审核要求": "1. 千兆以太网，6 类网线，RJ45 插座；2. 需联通后处理工作站、激光相机等；3. Achieva 1.5T：建议 4 个网络端口（三用一备），位置在控制室观察窗下方距地 30cm",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面200，C20以上基础 空调与"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e35c6e0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "网络要求",
+    "小类": "远程服务（PRS）",
+    "审核要求": "1. 需 4G 信号或稳定外网连接；2. 支持远程诊断、维修、软件升级；3. 接入方式：ADSL（推荐）、固定 IP、动态 IP 等",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 112"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1492eb2f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "冷却水要求",
+    "小类": "水冷机室外机距离",
+    "审核要求": "与磁体中心距离≥5 米（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "冷却水要求",
+    "小类": "基础平台",
+    "审核要求": "1. 尺寸：3m×2.5m（常规）；6m×2m（Ingenia MR 5300/Ingenia MR 7700 空调室外机）；2. 材料：C25 混凝土，厚度≥20cm，表面水平平整",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机"
+      },
+      {
+        "page": 1,
+        "quote": "局为最终方案。 原有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设"
+      },
+      {
+        "page": 1,
+        "quote": "的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6000长，2000宽，高出地面200，C20以上基础 空调与冷水机室外机平台 7500 5740 300"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13de4e3f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "冷却水要求",
+    "小类": "防护措施",
+    "审核要求": "室外机周围设栅栏 / 围挡，预留足够散热空间（≥1 米）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机"
+      },
+      {
+        "page": 1,
+        "quote": "门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接 室内盘管与室外机之间有管路连接， 头避开机柜正上方。 需在墙面开洞，具体位置由工程师现场沟通决定 占地 占地 空调室外机 水冷室外机 6"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e53acf0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "检查室 - 温度",
+    "审核要求": "18~22°C（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "检查室 - 相对湿度",
+    "审核要求": "40%~70%（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "设备室 - 温度",
+    "审核要求": "15~24°C（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "设备室 - 相对湿度",
+    "审核要求": "30%~70%（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "控制室 - 温度",
+    "审核要求": "18~24°C（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "控制室 - 相对湿度",
+    "审核要求": "30%~70%（所有型号）",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "换气量",
+    "审核要求": "检查室每小时换气 5 次或至少 400m³/h（Ingenia 3.0T/Ingenia MR 5300/Ingenia MR 7700）；≥500m³/h（Achieva 1.5T）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "00 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5m"
+      },
+      {
+        "page": 1,
+        "quote": "00 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x149458980>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "空调要求",
+    "小类": "空调类型",
+    "审核要求": "检查室 / 设备室建议专用恒温恒湿空调，控制室建议中央空调或独立空调（避免噪声 / 温度波动）",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "00 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT"
+      },
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA"
+      },
+      {
+        "page": 1,
+        "quote": "T 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏蔽 0.1mT 2200 空调 室内机 设备室 装修后最小门尺寸 1500 净宽1200mm净高2100mm 水冷 室内机 1600 室内阀门组 连接到LCC的水管接"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x14945a510>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "准备区域 / 更衣室要求",
+    "小类": "设置要求",
+    "审核要求": "强烈建议在检查区域周边设置，避免病人误带铁磁物体进入检查室",
+    "判断结果": "UNKNOWN",
+    "证据": [],
+    "判断说明": "图纸中未找到可验证的相关证据",
+    "置信度": 0.0
+  },
+  {
+    "大类": "外部失超围栏",
+    "小类": "样式",
+    "审核要求": "失超（氦气排放）管室外部分允许的最大压降为\n50mBar。排放形式：1 出外墙排放，2 外墙开口排放 3 屋顶排放   外部失超围栏制作：根据实际场地坏境不同，选择对应的排放形式，做对应的失超围栏",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "Y 失超开关附近不应有 2800 2500宽磁x2体5入00口高 其他开关与其混淆 1650 (待设备进入后砌墙封闭) 981"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13d1f63f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  },
+  {
+    "大类": "铁磁屏蔽",
+    "小类": "",
+    "审核要求": "磁场屏蔽要求是根据现场实际情况，使控制区域最小化或者使磁场在检查室内。如\n果需要额外的铁磁屏蔽，请联系飞利浦。客户负责与额外的铁磁屏蔽有关的一切费\n用。在一定条件下，可以要求减小 0.5mT 磁力线的影响区域。在一定的限定条件下，通过在检\n查室的墙体上增加铁磁屏蔽可以达到上述要求。磁体屏蔽由特定钢材组成，薄板厚度在\n2~20 毫米之间。铁板的大小和厚度由飞利浦被动屏蔽计算所决定。",
+    "判断结果": "UNKNOWN",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "工施筑建为作能不，考参户客供仅息信的中纸图套本 0 1 2 3 4 5m 1 2 3m 19 05:1 注： 0.5mT磁场控制区域，带心脏起搏器、胰岛 素泵和其他金属在体内的病人，请勿进入。 Legend 客户确认此布局为最终方案。 原有墙体"
+      },
+      {
+        "page": 1,
+        "quote": "981 3518 1380 检查室 控制室 1670 2900 7mT 3mT 此门需降噪＞32dBA 原始墙 1mT 屏蔽层 870 装饰层 0.5mT 0.3mT 170 磁屏蔽方案 详见'P' 11225500 0.5mT出墙 需做铁磁屏"
+      },
+      {
+        "page": 1,
+        "quote": "有墙体 新建墙体 原有门墙去除 签章： 日期： 梁或其他结构 柱子 客户确认设备所在区域承重 XYZ 常规尺寸 满足设备要求。 XYZ A 设备中心定位尺寸 (XYZ) 具体尺寸详询相关 系 统 布 局 图 签章： 日期： 设备供应商 2 24"
+      }
+    ],
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x13e323680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "置信度": 0.0
+  }
+]
