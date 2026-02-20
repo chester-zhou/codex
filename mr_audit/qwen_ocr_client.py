@@ -5,7 +5,7 @@ import io
 import json
 import os
 import re
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, Sequence
 
 import requests
 
@@ -31,13 +31,15 @@ def qwen_ocr_image(
     image,
     *,
     prompt: str | None = None,
+    model: Optional[str] = None,
+    model_fallbacks: Optional[Sequence[str]] = None,
     min_pixels: int = 32 * 32 * 3,
     max_pixels: int = 32 * 32 * 8192,
     timeout: int = 90,
 ) -> str:
     api_key = _get_api_key()
     base_url = os.getenv("QWEN_API_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1")
-    model_name = os.getenv("QWEN_OCR_MODEL", "qwen-vl-ocr-latest")
+    model_name = model or os.getenv("QWEN_OCR_MODEL", "qwen-vl-ocr-latest")
 
     if prompt is None:
         prompt = (
@@ -54,39 +56,51 @@ def qwen_ocr_image(
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
-    payload = {
-        "model": model_name,
-        "messages": [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": prompt},
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": data_url,
-                            "min_pixels": min_pixels,
-                            "max_pixels": max_pixels,
+    candidates = [model_name]
+    if model_fallbacks:
+        candidates.extend([m for m in model_fallbacks if m and m not in candidates])
+
+    last_error = ""
+    for candidate in candidates:
+        payload = {
+            "model": candidate,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": data_url,
+                                "min_pixels": min_pixels,
+                                "max_pixels": max_pixels,
+                            },
                         },
-                    },
-                ],
-            }
-        ],
-        "temperature": 0.0,
-        "max_tokens": 1024,
-        "response_format": {"type": "json_object"},
-    }
+                    ],
+                }
+            ],
+            "temperature": 0.0,
+            "max_tokens": 1024,
+            "response_format": {"type": "json_object"},
+        }
 
-    resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
-    if resp.status_code >= 400:
-        raise RuntimeError(f"Qwen OCR 请求失败: {resp.status_code} {resp.text}")
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
+            if resp.status_code >= 400:
+                last_error = f"{candidate}:{resp.status_code}:{resp.text}"
+                continue
 
-    data = resp.json()
-    content = ""
-    try:
-        content = data["choices"][0]["message"]["content"]
-    except Exception:
-        content = json.dumps(data, ensure_ascii=False)
+            data = resp.json()
+            content = ""
+            try:
+                content = data["choices"][0]["message"]["content"]
+            except Exception:
+                content = json.dumps(data, ensure_ascii=False)
 
-    result = _extract_json(content)
-    return str(result.get("text", "")).strip()
+            result = _extract_json(content)
+            return str(result.get("text", "")).strip()
+        except Exception as exc:
+            last_error = f"{candidate}:{type(exc).__name__}:{exc}"
+
+    raise RuntimeError(f"Qwen OCR 所有模型都失败: {last_error}")

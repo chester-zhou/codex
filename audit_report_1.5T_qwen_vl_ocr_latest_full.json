@@ -4,18 +4,32 @@
     "小类": "目的",
     "审核要求": "为客户和施工单位提供场地准备信息，确保场地满足设备运送和安装要求",
     "判断结果": "UNKNOWN",
-    "证据": [],
-    "判断说明": "图纸中未找到可验证的相关证据",
-    "置信度": 0.0
+    "证据": [
+      {
+        "page": 1,
+        "quote": "内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      },
+      {
+        "page": 1,
+        "quote": "搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      }
+    ],
+    "判断说明": "提供的证据仅包含安全警示语句（如'请勿进入'）和免责声明（'仅供客户参考，不能作为建筑施工图纸使用'），未涉及场地尺寸、承重、门宽、通道净高、地面平整度、电源/地线配置、吊装空间等与设备运送和安装直接相关的场地准备信息。无法判断是否满足审核要点。",
+    "置信度": 0.1
   },
   {
     "大类": "总说明",
     "小类": "角色定义",
     "审核要求": "1. 飞利浦：设备制造商 / 提供商；2. 客户：买方 / 最终用户；3. 施工单位 / 第三方：负责场地设计施工；4. 屏蔽公司：负责射频屏蔽室施工（建议选用飞利浦认证）",
     "判断结果": "UNKNOWN",
-    "证据": [],
-    "判断说明": "图纸中未找到可验证的相关证据",
-    "置信度": 0.0
+    "证据": [
+      {
+        "page": 1,
+        "quote": "内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      }
+    ],
+    "判断说明": "提供的证据仅包含图纸页码、局部文字（如'病人，请勿进入'、'系统布局图'、'本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用'），未提及飞利浦、客户、施工单位/第三方、屏蔽公司等任一审核要点，亦无型号、认证、责任主体等关键信息。",
+    "置信度": 0.1
   },
   {
     "大类": "总说明",
@@ -25,11 +39,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升"
+        "quote": ".3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea2ea0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "提供的证据仅包含局部图纸描述（如管路开洞位置、失超管走向等），未体现文件版本号、适用设备型号范围、是否为最新版、是否明确限定仅用于飞利浦设备场地准备、有无客户额外要求标注、有无偏离条款及飞利浦项目经理审批说明等关键审核要素。无法确认是否满足全部四项审核要点。",
+    "置信度": 0.3
   },
   {
     "大类": "总说明",
@@ -39,20 +53,29 @@
     "证据": [
       {
         "page": 1,
-        "quote": "用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰"
+        "quote": "预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3650>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据仅提及室外机平台尺寸、基础要求及磁场控制区域提示，未涉及安装房间明确性、场地设计施工责任归属、工作区域可锁闭性、周边不利影响告知与整改、装修完成状态及施工人员退场等任一审核要点。",
+    "置信度": 0.2
   },
   {
     "大类": "总说明",
     "小类": "施工单位责任",
     "审核要求": "严格按照国家相关规范及本文件要求施工，偏离需经飞利浦项目经理同意",
     "判断结果": "UNKNOWN",
-    "证据": [],
-    "判断说明": "图纸中未找到可验证的相关证据",
-    "置信度": 0.0
+    "证据": [
+      {
+        "page": 1,
+        "quote": "，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      },
+      {
+        "page": 1,
+        "quote": "内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      }
+    ],
+    "判断说明": "证据仅说明图纸为参考用途，不可直接用于施工，但未提供任何关于是否符合国家规范、是否偏离设计、或是否获得飞利浦项目经理同意的信息；亦无涉及具体安装做法、型号、施工偏差等审核要点的实质性内容。",
+    "置信度": 0.3
   },
   {
     "大类": "总说明",
@@ -62,19 +85,19 @@
     "证据": [
       {
         "page": 1,
-        "quote": "[OCR_ERROR:qwen_ocr:ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1"
+        "quote": "0 1 2 3 4 5m 2050 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室"
       },
       {
         "page": 1,
-        "quote": "用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰"
+        "quote": "预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其"
       },
       {
         "page": 1,
-        "quote": "90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警"
+        "quote": "机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3e60>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据提及了0.5mT磁场控制区域及禁止带心脏起搏器、胰岛素泵和体内金属的人员进入，满足审核要点2的部分要求；但未提供关于警示标志（地面标记/围栏）的具体设置信息（要点1）、检查室入口是否配置金属探测仪等安全措施（要点3）、铁磁物体禁入的管理说明（要点4）、以及非铁磁杜瓦罐标签要求（要点5）的任何证据。关键要素缺失且无法推断。",
+    "置信度": 0.4
   },
   {
     "大类": "总说明",
@@ -89,23 +112,23 @@
     "大类": "总说明",
     "小类": "健康和安全 - 液氦 / 氦气",
     "审核要求": "1. 氦气积聚可能导致窒息，失超时需通过排放系统排至室外；2. 液氦接触人体会冻伤，需专用防护装备；3. 仅培训人员可接触低温液体；4. 氦气排放管出口需设禁止进入区域，定期检查；5. 磁体通电前需安装好排放管和紧急退磁开关",
-    "判断结果": "UNKNOWN",
+    "判断结果": "PASS",
     "证据": [
       {
         "page": 1,
-        "quote": "以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警 系 统 布 局 图 告标志，防止意外冻伤。 .redloh thgirypoc"
+        "quote": "连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机"
       },
       {
         "page": 1,
-        "quote": "管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平"
+        "quote": "3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面"
       },
       {
         "page": 1,
-        "quote": "管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上"
+        "quote": "0 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea32c0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据明确显示图纸中包含‘室外失超管’设计：从磁体后方经走廊、负一层地洞至一楼外墙，抬升至5m水平排放，总长约30米，并注明含3个90°弯头；该描述符合非Ingenia MR 5300型号（如Ingenia 3.0T、Achieva 1.5T等）必须设置失超管的合格标准。虽未直接说明设备型号，但‘失超管’的存在本身即排除Ingenia MR 5300（因其无需失超管），故可合理推断为需失超管的其他型号，且排放路径满足排至室外、抬升至安全高度（5m）的要求，符合审核要点第1、4、5条。",
+    "置信度": 0.95
   },
   {
     "大类": "设备资料",
@@ -133,10 +156,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0"
+        "quote": "0 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x111918a40>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "证据中未提及任何MR设备型号及其对应的噪声值（dB(A)）信息，也未涉及检查室或控制室的声学性能指标，无法对照审核要点进行判断。",
     "置信度": 0.0
   },
   {
@@ -170,63 +193,63 @@
     "大类": "运输要求",
     "小类": "磁体入口尺寸",
     "审核要求": "1. 开墙洞：2.50m（宽）x2.50m（高）；2. 屋顶吊装：2.50m（长）x2.50m（宽）",
-    "判断结果": "UNKNOWN",
+    "判断结果": "FAIL",
     "证据": [
       {
         "page": 1,
-        "quote": "屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm"
+        "quote": "2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1"
       },
       {
         "page": 1,
-        "quote": "2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1"
+        "quote": ".5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0"
       },
       {
         "page": 1,
-        "quote": "向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5"
+        "quote": ".6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec1d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "开墙洞尺寸要求为2.50m（宽）×2.50m（高），但证据中明确记载磁体入口洞口大小为2300mm宽×2600mm高（即2.30m×2.60m）。宽度2.30m < 2.50m，不满足最小宽度要求；虽高度2.60m ≥ 2.50m，但宽度不合格即整体不达标。屋顶吊装尺寸（2.50m×2.50m）在证据中完全未提及，无法确认是否满足，但开墙洞已明确FAIL，故综合判定FAIL。",
+    "置信度": 0.95
   },
   {
     "大类": "运输要求",
     "小类": "走廊尺寸",
     "审核要求": "2.50m（宽）x2.60m（高）",
-    "判断结果": "UNKNOWN",
+    "判断结果": "FAIL",
     "证据": [
       {
         "page": 1,
-        "quote": "屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm"
+        "quote": "2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1"
       },
       {
         "page": 1,
-        "quote": "2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1"
+        "quote": ".5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0"
       },
       {
         "page": 1,
-        "quote": "Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1.3 235 分别接至空调、 地漏 通至室外下水沟 水冷机和LCC 装饰层 屏蔽层 原始墙"
+        "quote": "口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0 通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eeca40>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "图纸中明确标注磁体入口洞口尺寸为2300mm宽×2600mm高，宽度2300mm < 规定最小宽度2500mm；虽高度2600mm满足≥2600mm要求，但宽度不达标。审核要点要求同时满足2.50m（宽）×2.60m（高），且证据未表明该设备为Ingenia MR 7700（该型号仅需宽>2.5m、高>2.50m），故适用通用标准，宽度不合格。",
+    "置信度": 0.95
   },
   {
     "大类": "运输要求",
     "小类": "检查室门尺寸",
     "审核要求": "1.20m（宽）x2.10m（高）（加液氦通道,500L液氦杜瓦罐）(如果液氦杜瓦罐是小瓶250L,尺寸要求 900 （宽）x2020 高，)",
-    "判断结果": "UNKNOWN",
+    "判断结果": "PASS",
     "证据": [
       {
         "page": 1,
-        "quote": "屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm"
+        "quote": "2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1"
       },
       {
         "page": 1,
-        "quote": "2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1"
+        "quote": ".5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eed3a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "图纸中明确标注磁体入口洞口尺寸为2300mm（宽）×2600mm（高），大于审核要点要求的最小尺寸1200mm（宽）×2100mm（高）（适用于500L液氦杜瓦罐）；即使按小瓶250L规格要求900mm×2020mm，该洞口尺寸亦远超标准。因此满足所有型号通用合格标准。",
+    "置信度": 0.95
   },
   {
     "大类": "运输要求",
@@ -236,14 +259,14 @@
     "证据": [
       {
         "page": 1,
-        "quote": "屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm"
+        "quote": "2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1"
       },
       {
         "page": 1,
-        "quote": "2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1"
+        "quote": ".5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109c237a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: 未找到 JSON 结构",
     "置信度": 0.0
   },
   {
@@ -317,11 +340,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
+        "quote": "1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3230>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据仅包含零散尺寸、设备参数及施工提示（如洞口尺寸、水管三通、屏蔽要求等），未提供任何关于地面以下各深度层铁磁物质分布、质量密度、钢梁位置/方向、或与磁体中心距离等关键信息，无法验证三项审核要点。",
+    "置信度": 0.1
   },
   {
     "大类": "机房选址",
@@ -340,11 +363,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "onnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300"
+        "quote": "050 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3e30>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提供移动铁磁物体的质量数据，无法计算安全距离（质量×10）；亦未提供‘移动铁磁性物体最小距离要求表’内容，无法对照查表验证是否满足最小距离要求。图中虽有若干数值（如1.2、1.1、2.2等），但未明确其物理含义及对应对象，无法确认是否为实测/设计距离或是否覆盖所有必要位置。",
+    "置信度": 0.3
   },
   {
     "大类": "机房选址",
@@ -426,11 +449,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平"
+        "quote": "面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eecb00>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中仅提及设备室尺寸（如3.5、3.6、3.1、3.7米等数值），但未明确标注对应哪一维度（宽/深/高），未说明是磁体中心线所在位置的净宽度，也未指明具体MR型号、磁体布置朝向、磁体中心距后方完成面距离等关键参数，无法对照审核要点中关于推荐宽度、最小宽度（含3.4m/3.6m条件判断）、左右侧最小间距（1805mm/1542mm）等要求进行验证。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -440,29 +463,29 @@
     "证据": [
       {
         "page": 1,
-        "quote": "与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排"
+        "quote": "接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec110>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及MR设备安装场地的净高（即屏蔽室或机房的室内净高度），也未说明所涉MR型号（如Ingenia MR 7700、Ingenia 3.0T CX或Prodiva等），无法判断是否满足≥3000mm最小高度或≥3200mm推荐高度要求。失超管抬升至5m仅反映排放路径高度，与室内安装净高无直接对应关系。",
+    "置信度": 0.2
   },
   {
     "大类": "检查室要求",
     "小类": "房间通用要求",
     "审核要求": "1. 室内金属物体需为非铁磁性材料；2. 接入的电线、管道等需通过滤波器 / 波导管滤波；3. 房顶无水管 / 水槽，下方避免管道经过；4. 防止屏蔽体泡水",
-    "判断结果": "UNKNOWN",
+    "判断结果": "FAIL",
     "证据": [
       {
         "page": 1,
-        "quote": "外下水沟 水冷机和LCC 装饰层 屏蔽层 原始墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室"
+        "quote": "地漏 Ø50mm的下水管 1m 3.0 通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3."
       },
       {
         "page": 1,
-        "quote": "长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警 系 统 布 局 图 告标志，防止意外冻"
+        "quote": "6000长，2000宽， 高出地面200 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee150>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据显示存在'地漏 Ø50mm的下水管 1m ... 通至室外下水沟'，且明确穿过屏蔽层（'装饰层 屏蔽层 原始墙'），违反审核要点第2条（接入管道需经滤波器/波导管滤波）和第4条（防止屏蔽体泡水——下水管若渗漏或冷凝可能致屏蔽层受潮）；同时，下水管为铁磁性材料（常规铸铁或钢制）可能性极高，违反要点第1条（室内金属物体需为非铁磁性材料）。无任何证据表明该管道采取了滤波、非铁磁材质或防水隔离措施。",
+    "置信度": 0.95
   },
   {
     "大类": "检查室要求",
@@ -472,11 +495,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "- ---- 院医合结医西中京南 ：LET ：期日 ：例比 ：号目项 ---- ---- ---- ---- 使接直件文或纸图工施筑建为作能不，考参户客供仅息信的中纸图套本 。用 0 1 2 3 4 5m 1 2 3m / 13 05:1 A"
+        "quote": "人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3fb0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "提供的证据仅为图纸页眉/图例中的无关文字（如'人，请勿进入'、'更衣1'、'系统布局图'及免责声明），未包含任何关于频率范围（10M-130MHz）、衰减值（≥100dB）、屏蔽性能测试要求或第三方检测依据（MIL-STD-285 或 GB/T 12190）的信息。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -486,11 +509,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "0 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10cddc680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及屏蔽室对地绝缘电阻的测试值、测量方法或相关技术参数，无法判断是否满足 > 3kΩ 的要求。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -500,15 +523,15 @@
     "证据": [
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "0 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封"
       },
       {
         "page": 1,
-        "quote": "蔽层 原始墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，"
+        "quote": "m 3.0 通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eedcd0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及屏蔽门行程开关的接线路径、是否连接至DACC机柜、余量长度，也未说明屏蔽门打开时设备的电磁发射控制逻辑或相关安全联锁机制。所有引用内容均为建筑尺寸、管路布置、屏蔽层构造等物理布局信息，与两项审核要点无直接关联。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -518,11 +541,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "0 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec230>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及屏蔽窗所用材料（如钢化安全玻璃）及屏蔽室施工责任方（是否由屏蔽公司完成），无法验证两项审核要点。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -541,15 +564,15 @@
     "证据": [
       {
         "page": 1,
-        "quote": "用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰"
+        "quote": "预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其"
       },
       {
         "page": 1,
-        "quote": "失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20"
+        "quote": "共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eecd10>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提供任何关于磁体基础（A区域）、其他区域（B区域）或屏蔽层处地面的水平度测量数据、公差要求、实测值或相关图纸标注；仅提及室外机平台高出地面200mm及失超管路径等与水平度无关的信息，无法判断是否满足各型号对应的水平差限值要求。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -559,10 +582,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
+        "quote": "1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee510>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "证据中未提及任何关于磁体地垫或病人床地垫的受力数值、型号对应关系、地垫设计参数或结构校核内容，完全无法判断是否满足审核要点中的受力要求。",
     "置信度": 0.0
   },
   {
@@ -591,11 +614,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
+        "quote": "1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea31d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及吊顶开口尺寸、假顶设置、材料类型（金属/非金属）、降噪要求、磁体上方净空、维修空间内悬吊物高度、射频屏蔽接地等任一审核要点；仅含磁体入口洞口尺寸、屏蔽要求及水管布置等无关或不充分信息。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -605,11 +628,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
+        "quote": "1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea38f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及扬声器安装位置、吊顶承重能力、吊环与扬声器距离、安全绳索配置，也未说明磁场强度分布是否满足100mT安全距离要求；仅出现'0.5mT出墙'等零散数值，无法确认与扬声器布置相关的三项审核要点。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -637,15 +660,19 @@
     "证据": [
       {
         "page": 1,
-        "quote": "墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一"
+        "quote": "通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后"
       },
       {
         "page": 1,
-        "quote": "管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平"
+        "quote": "0 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      },
+      {
+        "page": 1,
+        "quote": "连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec350>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提供关于墙面平整度与垂直度的任何信息；未明确滤波板和失超管波导洞口的尺寸、位置是否符合安装要求；未说明滤波板波导外表面是否突出屏蔽层且与装饰层齐平；未提及屏蔽商是否准备M5/M8螺丝和螺母。所有审核要点均缺乏直接或可推断的支撑证据。",
+    "置信度": 0.2
   },
   {
     "大类": "检查室要求",
@@ -655,18 +682,18 @@
     "证据": [
       {
         "page": 1,
-        "quote": "[OCR_ERROR:qwen_ocr:ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1."
+        "quote": "0 1 2 3 4 5m 2050 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1"
       },
       {
         "page": 1,
-        "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
+        "quote": "1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC"
       },
       {
         "page": 1,
-        "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空"
+        "quote": ".3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eedd90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "证据中未提供任何噪声测量值（dB(A)）或与操作者位置、检查床前、磁体1米周围等指定测点相关的声级数据；所有引用内容均为尺寸、布局、屏蔽要求、管路布置等物理安装信息，完全不涉及噪声指标。",
     "置信度": 0.0
   },
   {
@@ -677,11 +704,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0"
+        "quote": "0 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee840>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及天花材料吸音系数、主音频范围、屏蔽门/窗衰减性能、屏蔽室外与门处噪声水平等任一审核要点，信息完全不相关。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -700,11 +727,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
+        "quote": "1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1120fc920>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及任何关于照明照度（200Lux/500Lux）或灯具安装位置（特别是扫描床和磁体背后正上方）的信息，无法判断是否符合审核要点。",
+    "置信度": 0.1
   },
   {
     "大类": "检查室要求",
@@ -750,10 +777,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升"
+        "quote": ".3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3320>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "证据中未提及任何关于系统滤波板（SFB）、主电源分配柜（MDU）、梯度放大柜（GAC）、数据处理柜（DACC）或操作台的磁场强度（mT）数值、位置、型号或相关合规性信息，无法判断是否满足各设备对应的场强限值要求。",
     "置信度": 0.0
   },
   {
@@ -764,11 +791,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1.3 235 分别接至空调、 地漏 通至室外下水沟 水冷机和LCC 装饰层 屏蔽层 原始墙 200 3.7 200 Tm 1.0 600"
+        "quote": "0 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0 通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 2"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eeda90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及进水管径（是否为6分）、是否配置球阀、供水压力范围（0.15~0.6MPa）、流量（≥10L/min）及是否符合市政供水要求等关键审核要素；仅提到'进水管需加三通'，但无管径、阀门、压力、流量等具体参数。",
+    "置信度": 0.2
   },
   {
     "大类": "设备室要求",
@@ -823,11 +850,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "[OCR_ERROR:qwen_ocr:ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1"
+        "quote": "0 1 2 3 4 5m 2050 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec1a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提供任何关于照度（Lux）数值、照明布置、灯具选型或光线方向的信息，无法判断日常照度是否为50~100Lux、维修照度是否为500Lux，亦无法确认是否存在光线直射控制台监视器的情况。",
+    "置信度": 0.1
   },
   {
     "大类": "电气要求",
@@ -843,8 +870,13 @@
     "小类": "主电源 - 额定容量",
     "审核要求": "1. Ingenia 3.0T/Achieva 3.0T/Ingenia Elition：86kVA；2. Ingenia MR 5300：60kVA；3. Achieva 1.5T：60kVA（单梯）/80kVA（双梯）；4. Ingenia MR 7700：115kVA；5. Ingenia 3.0T CX：无明确要求（参考 Ingenia 3.0T）Prodiva 1.5T:50KVA    Achieva 3.0T   86kVA Multiva 1.5T  60KVA",
     "判断结果": "UNKNOWN",
-    "证据": [],
-    "判断说明": "图纸中未找到可验证的相关证据",
+    "证据": [
+      {
+        "page": 1,
+        "quote": "素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      }
+    ],
+    "判断说明": "证据中未提供任何关于MR设备型号、供电容量（kVA）要求或相关电气设计参数的信息，仅包含安全提示和图纸使用说明，完全无法支撑对场地安装图纸中供电容量是否符合审核要点的判断。",
     "置信度": 0.0
   },
   {
@@ -861,9 +893,14 @@
     "小类": "主电源 - 电源内阻",
     "审核要求": "1. Ingenia 3.0T/Multiva1.5T/Achieva 3.0T：<150mΩ；2. Ingenia MR 5300：<200mΩ；3. Achieva 1.5T/3.0T：≤200mΩ（单梯）/≤150mΩ（双梯）；4. Ingenia MR 7700：<110mΩ；5. Ingenia 3.0T CX：无明确要求（参考 Ingenia 3.0T）6   IngeniaElition <200mΩ（Elition S）; <150mΩ（Elition X）",
     "判断结果": "UNKNOWN",
-    "证据": [],
-    "判断说明": "图纸中未找到可验证的相关证据",
-    "置信度": 0.0
+    "证据": [
+      {
+        "page": 1,
+        "quote": "素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      }
+    ],
+    "判断说明": "证据中未提供任何关于接地电阻、内阻测量值或MR设备型号对应的技术参数信息，仅包含安全提示和图纸使用说明，完全无法支撑对内阻是否符合型号要求的判断。",
+    "置信度": 0.05
   },
   {
     "大类": "电气要求",
@@ -888,9 +925,14 @@
     "小类": "接地系统",
     "审核要求": "1. 推荐：TN-S/TT 系统，严禁 TN-C 系统；2. 接地电阻：联合接地 < 1Ω，独立接地 < 4Ω（所有型号）；3. 保护接地用线线径≥35mm²，与相线相等或为相线 1/2  零地电压差：＜5V（建议＜1V RMS）",
     "判断结果": "UNKNOWN",
-    "证据": [],
-    "判断说明": "图纸中未找到可验证的相关证据",
-    "置信度": 0.0
+    "证据": [
+      {
+        "page": 1,
+        "quote": "0 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/13 本套图纸中的信息仅供各户参考，不能作为建筑施工图纸或文件直接使用。"
+      }
+    ],
+    "判断说明": "提供的证据仅为图纸页眉/图例说明，包含磁场警示、更衣室标注及免责声明，未涉及供电系统类型（TN-S/TT/TN-C）、接地电阻值、保护接地线径、零地电压等任一审核要点。无有效技术参数或设计说明可供判断。",
+    "置信度": 0.1
   },
   {
     "大类": "网络要求",
@@ -900,11 +942,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "0 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共"
+        "quote": "装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eed130>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及千兆以太网、6类网线、RJ45插座、网络端口数量、位置（如控制室观察窗下方距地30cm）、联通后处理工作站或激光相机等任何审核要点相关内容；仅描述了管路、墙面开洞及设备室布局等与网络安装无关的物理设施信息。",
+    "置信度": 0.1
   },
   {
     "大类": "网络要求",
@@ -914,11 +956,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": ":ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2"
+        "quote": "2050 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eef620>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "提供的证据仅为场地尺寸、屏蔽要求及洞口参数等土建与磁体安装相关信息，未提及网络连接方式（如4G信号、ADSL、固定IP或动态IP）、外网连通性、远程诊断/维修/升级能力等审核要点。",
+    "置信度": 0.1
   },
   {
     "大类": "冷却水要求",
@@ -928,25 +970,25 @@
     "证据": [
       {
         "page": 1,
-        "quote": "负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁"
+        "quote": "3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C20以"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117b1b680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中仅提及失超管抬升至5m水平排放，以及空调与冷水机室外机平台需‘远离失超管排放区域’，但未明确给出空调/冷水机室外机平台中心或设备安装位置与磁体中心之间的实际距离；亦未说明磁体中心位置坐标或参照系。无法据此确认是否满足‘与磁体中心距离≥5米’的强制要求。",
+    "置信度": 0.3
   },
   {
     "大类": "冷却水要求",
     "小类": "基础平台",
     "审核要求": "1. 尺寸：3m×2.5m（常规）；6m×2m（Ingenia MR 5300/Ingenia MR 7700 空调室外机）；2. 材料：C25 混凝土，厚度≥20cm，表面水平平整",
-    "判断结果": "UNKNOWN",
+    "判断结果": "FAIL",
     "证据": [
       {
         "page": 1,
-        "quote": "， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放"
+        "quote": "空调与冷水机室外机平台(须远离失超管排放区域) 6000长，2000宽，高出地面200 C20以上基础"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea39e0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "图纸标注空调室外机平台尺寸为6000mm×2000mm（即6m×2m），符合Ingenia MR 5300/7700型号要求；但基础混凝土强度标注为'C20以上'，而审核要点明确要求材料为'C25混凝土'，C20不满足C25的强制性要求；且未提及厚度≥20cm及表面水平平整等关键施工质量要求。",
+    "置信度": 0.95
   },
   {
     "大类": "冷却水要求",
@@ -956,15 +998,15 @@
     "证据": [
       {
         "page": 1,
-        "quote": "Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1.3 235 分别接至空调、 地漏 通至室外下水沟 水冷机和LCC 装饰层 屏蔽层 原始墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室"
+        "quote": "口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空调、 水冷机和LCC 地漏 Ø50mm的下水管 1m 3.0 通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞"
       },
       {
         "page": 1,
-        "quote": "水冷机和LCC 装饰层 屏蔽层 原始墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁"
+        "quote": "0mm的下水管 1m 3.0 通至室外下水沟 装饰层 屏蔽层 原始墙 1.3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eef590>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及室外机周围是否设置栅栏/围挡，也未说明散热空间是否≥1米；仅出现数字'1m'，但上下文为下水管通至室外下水沟的距离，与散热空间无关。",
+    "置信度": 0.2
   },
   {
     "大类": "空调要求",
@@ -1028,15 +1070,15 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0"
+        "quote": "0 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至"
       },
       {
         "page": 1,
-        "quote": ".5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0"
+        "quote": "0 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eecef0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及检查室的换气次数或换气量（m³/h），也未说明所安装设备的具体型号（如Ingenia 3.0T、Achieva 1.5T等），无法判断是否满足对应型号的通风要求。",
+    "置信度": 0.1
   },
   {
     "大类": "空调要求",
@@ -1046,19 +1088,19 @@
     "证据": [
       {
         "page": 1,
-        "quote": ".5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0"
+        "quote": "0 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封闭 8进水管需加三通 分别接至空"
       },
       {
         "page": 1,
-        "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升"
+        "quote": ".3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，"
       },
       {
         "page": 1,
-        "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空"
+        "quote": ".3 235 200 200 3.8 室内盘管与室外机之间 有管路连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee6f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中未提及任何关于空调系统类型（如恒温恒湿空调、中央空调或独立空调）的配置信息，也未说明控制室、检查室、设备室的温湿度控制措施或噪声规避设计。所有引用内容仅涉及空间尺寸、屏蔽要求、管路开洞、失超管路径等，与审核要点无直接关联。",
+    "置信度": 0.2
   },
   {
     "大类": "准备区域 / 更衣室要求",
@@ -1077,15 +1119,11 @@
     "证据": [
       {
         "page": 1,
-        "quote": "管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平"
-      },
-      {
-        "page": 1,
-        "quote": "以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警 系 统 布 局 图 告标志，防止意外冻伤。 .redloh thgirypoc e"
+        "quote": "连接，需在墙面 开洞，具体位置由工程 师现场沟通决定 设备室 两台MR共用 3.5 3.6 3.1 3.7 600 室外失超管从磁体后方 至走廊，向下至负一预 留地洞到一楼外墙，抬升 至5m水平排放， 预计长30米，90°弯头3个 空调与冷水机"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eef0b0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中提及失超管路径（30米、3个90°弯头、抬升至5m水平排放）、排放位置（一楼外墙），但未明确说明排放形式属于1（出外墙排放）、2（外墙开口排放）或3（屋顶排放）中的哪一类；未提供压降计算依据或实测值，无法判断是否满足≤50mBar要求；未说明所选围栏类型及是否符合对应机型（排除MR 5300）和场地环境的手册要求；缺乏关键合规性信息。",
+    "置信度": 0.3
   },
   {
     "大类": "铁磁屏蔽",
@@ -1095,14 +1133,14 @@
     "证据": [
       {
         "page": 1,
-        "quote": "米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏"
+        "quote": "冷水机室外 机平台(须远离失 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 系统布局图 3.9 3.11 A1 2/"
       },
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "0 1 2 2m 3m 3200 控制室 2.2 2.1 1.5 2.2 7000 2400 0.5mT出墙， 需做铁磁屏蔽 2500 Z 5000 检查室 1.2 1.1 磁体入口，洞口大小： 2300宽x2600高 洞口待磁体进入后再砌墙封"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea36b0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-    "置信度": 0.0
+    "判断说明": "证据中仅提及'0.5mT出墙，需做铁磁屏蔽'，但未提供任何关于该铁磁屏蔽是否依据飞利浦被动屏蔽计算结果设计的信息，也未说明钢材规格（厚度2~20mm）、尺寸、布置方式或是否由飞利浦确认。无法确认施工是否符合'需依据飞利浦算出的铁磁屏蔽进行施工'这一合格标准。",
+    "置信度": 0.3
   }
 ]

@@ -28,7 +28,7 @@
         "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea2ea0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1140f1e80>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -42,7 +42,7 @@
         "quote": "用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3650>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116444200>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -62,7 +62,7 @@
     "证据": [
       {
         "page": 1,
-        "quote": "[OCR_ERROR:qwen_ocr:ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1"
+        "quote": "exceeded with url: /compatible-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1"
       },
       {
         "page": 1,
@@ -73,7 +73,7 @@
         "quote": "90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3e60>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116444980>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -104,7 +104,7 @@
         "quote": "管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea32c0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10b61cce0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -136,7 +136,7 @@
         "quote": ".5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x111918a40>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116407e90>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -185,7 +185,7 @@
         "quote": "向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec1d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164444d0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -207,7 +207,7 @@
         "quote": "Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1.3 235 分别接至空调、 地漏 通至室外下水沟 水冷机和LCC 装饰层 屏蔽层 原始墙"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eeca40>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116445550>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -225,7 +225,7 @@
         "quote": "2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eed3a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116445e80>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -243,7 +243,7 @@
         "quote": "2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109c237a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11602fec0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -320,7 +320,7 @@
         "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3230>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10c056930>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -340,10 +340,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": "onnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300"
+        "quote": "ble-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3e30>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116444e00>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -429,7 +429,7 @@
         "quote": "间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eecb00>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116444410>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -443,7 +443,7 @@
         "quote": "与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec110>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116446e10>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -461,7 +461,7 @@
         "quote": "长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警 系 统 布 局 图 告标志，防止意外冻"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee150>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1140f18e0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -475,7 +475,7 @@
         "quote": "- ---- 院医合结医西中京南 ：LET ：期日 ：例比 ：号目项 ---- ---- ---- ---- 使接直件文或纸图工施筑建为作能不，考参户客供仅息信的中纸图套本 。用 0 1 2 3 4 5m 1 2 3m / 13 05:1 A"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3fb0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1139043e0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -486,10 +486,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "e-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10cddc680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116446900>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -500,14 +500,14 @@
     "证据": [
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "e-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
       },
       {
         "page": 1,
         "quote": "蔽层 原始墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eedcd0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116444290>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -518,10 +518,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "e-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec230>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116445280>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -548,7 +548,7 @@
         "quote": "失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eecd10>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164479b0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -562,7 +562,7 @@
         "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee510>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116078800>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -594,7 +594,7 @@
         "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea31d0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11389be90>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -608,7 +608,7 @@
         "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea38f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116445e80>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -644,7 +644,7 @@
         "quote": "管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec350>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164444d0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -655,7 +655,7 @@
     "证据": [
       {
         "page": 1,
-        "quote": "[OCR_ERROR:qwen_ocr:ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1."
+        "quote": "exceeded with url: /compatible-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1."
       },
       {
         "page": 1,
@@ -666,7 +666,7 @@
         "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eedd90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116446c30>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -680,7 +680,7 @@
         "quote": "2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee840>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164471a0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -703,7 +703,7 @@
         "quote": ".2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1120fc920>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10b624c50>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -753,7 +753,7 @@
         "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea3320>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116445190>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -767,7 +767,7 @@
         "quote": "口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0 8'进水管需加三通 Ø50mm的下水管 Tm 3.0 1.3 235 分别接至空调、 地漏 通至室外下水沟 水冷机和LCC 装饰层 屏蔽层 原始墙 200 3.7 200 Tm 1.0 600"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eeda90>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164453d0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -823,10 +823,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": "[OCR_ERROR:qwen_ocr:ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1"
+        "quote": "exceeded with url: /compatible-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eec1a0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116446060>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -903,7 +903,7 @@
         "quote": "0 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eed130>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10bdeb9e0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -914,10 +914,10 @@
     "证据": [
       {
         "page": 1,
-        "quote": ":ConnectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2"
+        "quote": "tible-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eef620>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116447770>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -931,7 +931,7 @@
         "quote": "负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空调与冷水机室外 至5m水平排放， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117b1b680>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164478c0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -945,7 +945,7 @@
         "quote": "， 机平台(须远离失 预计长30米，90°弯头3个 超管排放区域) 6000长，2000宽， 高出地面200 C20以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea39e0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1164450d0>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -963,7 +963,7 @@
         "quote": "水冷机和LCC 装饰层 屏蔽层 原始墙 200 3.7 200 Tm 1.0 600 3.5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eef590>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10b8a3e60>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -1035,7 +1035,7 @@
         "quote": ".5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x2600高 Tm 3 洞口待磁体进入后再砌墙封闭 Tm 1 Tm 5.0"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eecef0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1140f2810>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -1057,7 +1057,7 @@
         "quote": ".5 3.6 3.1 室内盘管与室外机之间 3.8 有管路连接，需在墙面 3.9 开洞，具体位置由工程 师现场沟通决定 设备室 3.2 3.3 室外失超管从磁体后方 3.4 至走廊，向下至负一预 3940 两台MR共用 留地洞到一楼外墙，抬升 空"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eee6f0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116468c80>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -1084,7 +1084,7 @@
         "quote": "以上基础 注： 3.11 0.5mT磁场控制区域，带心脏起搏 器、胰岛素泵和其他金属在体内的 病人，请勿进入。 更衣1 氦气排放区域 必须在失超管墙外设置防护栏和警 系 统 布 局 图 告标志，防止意外冻伤。 .redloh thgirypoc e"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117eef0b0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x114042060>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   },
   {
@@ -1099,10 +1099,10 @@
       },
       {
         "page": 1,
-        "quote": "nectionError] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
+        "quote": "e-mode/v1...] 2050 7000 2400 Y 控制室 1.5 2.2 0.5mT出墙， 2.2 需做铁磁屏蔽 2.1 2500 3200 1.2 Z 5000 1.1 1.4 检查室 磁体入口，洞口大小： Tm 7 2300宽x"
       }
     ],
-    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x117ea36b0>: Failed to resolve 'dashscope.aliyuncs.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "判断说明": "大模型调用失败: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /compatible-mode/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116445160>: Failed to establish a new connection: [Errno 1] Operation not permitted')))",
     "置信度": 0.0
   }
 ]

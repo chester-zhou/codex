@@ -23,6 +23,8 @@ def extract_pdf_text(
     ocr_dpi: int = 300,
     ocr_min_chars: int = 20,
     ocr_model_dir: Optional[str] = None,
+    ocr_model: Optional[str] = None,
+    ocr_model_fallbacks: Optional[List[str]] = None,
     ocr_min_pixels: int = 32 * 32 * 3,
     ocr_max_pixels: int = 32 * 32 * 8192,
 ) -> List[PdfPage]:
@@ -34,8 +36,8 @@ def extract_pdf_text(
         ) from exc
 
     ocr_engine = ocr_engine.lower()
-    if ocr and ocr_engine not in {"tesseract", "easyocr", "qwen_ocr"}:
-        raise ValueError("ocr_engine 仅支持 tesseract、easyocr 或 qwen_ocr")
+    if ocr and ocr_engine not in {"tesseract", "easyocr", "qwen_ocr", "openai_ocr"}:
+        raise ValueError("ocr_engine 仅支持 tesseract、easyocr、qwen_ocr 或 openai_ocr")
 
     pytesseract = None
     easyocr_reader = None
@@ -75,6 +77,8 @@ def extract_pdf_text(
         )
     elif ocr and ocr_engine == "qwen_ocr":
         from .qwen_ocr_client import qwen_ocr_image  # local import to avoid heavy deps
+    elif ocr and ocr_engine == "openai_ocr":
+        from .openai_ocr_client import openai_ocr_image  # local import to avoid heavy deps
 
     pages: List[PdfPage] = []
     with pdfplumber.open(path) as pdf:
@@ -82,19 +86,36 @@ def extract_pdf_text(
             text = page.extract_text() or ""
             if ocr and len(text.strip()) < ocr_min_chars:
                 image = page.to_image(resolution=ocr_dpi).original
-                if ocr_engine == "tesseract":
-                    ocr_text = pytesseract.image_to_string(image, lang=ocr_lang)
-                elif ocr_engine == "easyocr":
-                    results = easyocr_reader.readtext(image)
-                    ocr_text = "\n".join([item[1] for item in results if len(item) >= 2])
-                else:
-                    ocr_text = qwen_ocr_image(
-                        image,
-                        min_pixels=ocr_min_pixels,
-                        max_pixels=ocr_max_pixels,
-                    )
-                if ocr_text:
-                    text = ocr_text
+                try:
+                    if ocr_engine == "tesseract":
+                        ocr_text = pytesseract.image_to_string(image, lang=ocr_lang)
+                    elif ocr_engine == "easyocr":
+                        results = easyocr_reader.readtext(image)
+                        ocr_text = "\n".join([item[1] for item in results if len(item) >= 2])
+                    elif ocr_engine == "qwen_ocr":
+                        ocr_text = qwen_ocr_image(
+                            image,
+                            model=ocr_model,
+                            model_fallbacks=ocr_model_fallbacks,
+                            min_pixels=ocr_min_pixels,
+                            max_pixels=ocr_max_pixels,
+                        )
+                    else:
+                        ocr_text = openai_ocr_image(
+                            image,
+                            min_pixels=ocr_min_pixels,
+                            max_pixels=ocr_max_pixels,
+                        )
+                    if ocr_text:
+                        text = ocr_text
+                except Exception as exc:
+                    # Keep pipeline alive when OCR backend is unavailable.
+                    err_msg = str(exc).replace("\n", " ").strip()
+                    if len(err_msg) > 160:
+                        err_msg = err_msg[:160] + "..."
+                    text = (
+                        f"[OCR_ERROR:{ocr_engine}:{type(exc).__name__}:{err_msg}] {text}"
+                    ).strip()
             pages.append(PdfPage(page_num=i, text=text))
 
     if not pages:
